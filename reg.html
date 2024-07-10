@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <h1 class="logo">
+            <a href="index.html#main" class="anchor">Айболит</a>
+            </h1>
+
+            <nav class="header__nav" id="no_show">
+                <ul>
+                    <li><a href="index.html#about" class="anchor">О нас</a></li>
+                    <li><a href="index.html#services" class="anchor">Сервис</a></li>
+                    <li><a href="index.html#our-works" class="anchor">Наши работы</a></li>
+                    <li><a href="index.html#footer" class="anchor">Контакты</a></li>
+                    <li><a href="auth.html">Вход</a></li>
+                </ul>
+            </nav>
+           <button class="menu-btn" id="menu-btn">Меню</button>
+        </div>
+    </header>
+        <section class="registration common-section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h3 class="reg-title">Регистрация</h3>
+                </div>
+                    <form class="registration-form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="login">Логин</label>
+                        <input type="text" id="login" name="login" required>
+
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" name="password" required>
+
+                        <button type="submit">Зарегистрироваться</button>
+                    </form>
+            </div>
+        </section>
+    <script src="script_menu.js"></script>
+</body>
+</html>
